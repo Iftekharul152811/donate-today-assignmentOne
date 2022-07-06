@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -12,6 +13,7 @@ body {
 .background {
     background-image: url(images/need.png);
     height: 700px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(4px);
@@ -20,7 +22,7 @@ body {
 .container {
     font-weight: bold;
     position: absolute;
-    top: 40%;
+    top: 300px;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -84,9 +86,10 @@ body {
 .money-select .tk {
     background-color: rgb(244, 244, 244);
     color: gray;
-    padding: 20px;
-    width: 110px;
+    width: 150px;
     height: 100px;
+    border: 0;
+    outline: 0;
     text-align: center;
     margin-right: 20px;
     font-size: 30px;
@@ -98,8 +101,7 @@ body {
     color: orangered;
     border: 3px solid orangered;
     background-color: rgb(244, 244, 244);
-    padding: 20px;
-    width: 110px;
+    width: 150px;
     height: 100px;
     text-align: center;
     margin-right: 20px;
@@ -147,8 +149,7 @@ body {
 .card {
     display: flex;
     margin: auto;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding: 0px 120px 0px 120px;
 }
 
 .card .card1 {
@@ -197,13 +198,13 @@ body {
     display: flex;
     margin: 10%;
     background-color: darkslategray;
-    padding-left: 20px;
     border-radius: 10px;
 }
 
 .story-text {
     width: 50%;
     padding-top: 10px;
+    padding-left: 20px;
     padding-right: 100px;
 }
 
@@ -264,23 +265,23 @@ body {
 .box {
     margin: auto;
     width: 850px;
-    height: 180px;
-    background-color: bisque;
+    height: 200px;
+    background-color: rgb(255, 236, 212);
 }
 
 .form {
-    padding: 70px 70px;
-    display: flex;
-
+    padding: 70px;
 }
 
 .email {
-    margin-left: 120px;
     width: 300px;
     font-size: 18px;
-    height: 39px;
+    background-color: lightgray;
+    height: 43px;
     padding-left: 20px;
-
+    border: 0;
+    outline: 0;
+    border-radius: 8px 0px 0px 8px;
 }
 
 .btn-subscribe {
@@ -291,6 +292,8 @@ body {
     background-color: orangered;
     border: 0;
     outline: 0;
+    border-radius: 0px 8px 8px 0px;
+    margin-left: -10px;
 }
 
 /* -----------------------------------------*/
