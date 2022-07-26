@@ -10,30 +10,30 @@ body {
     width: 100%;
 }
 
-.background {
+.section-one {
     background-image: url(images/need.png);
-    height: 700px;
-    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(4px);
+    width: 100%;
+    height: 100vh;
+    position: relative;
 }
 
 .container {
-    font-weight: bold;
     position: absolute;
-    top: 300px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+    left: 0;
+    top: 0;
     width: 100%;
-    padding: 20px;
+    height: 100vh;
+    padding-left: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), transparent);
     text-align: center;
 }
 
 .container-header {
     font-size: 70px;
     padding: 0;
+    margin-top: 150px;
     margin-bottom: 10px;
     color: white;
 }
@@ -297,21 +297,17 @@ body {
 }
 
 /* -----------------------------------------*/
-
 footer {
     margin-top: 100px;
-    padding-top: 0;
-    color: white;
     background-color: black;
-    height: 200px;
+    color: white;
+    overflow: hidden;
     text-align: center;
 }
 
 footer h1 {
-    padding-top: 20px;
-    color: orangered;
-    font-size: 50px;
-    font-style: italic;
+    color: tomato;
+    font-family: cursive;
 }
 
 /* -----------------------------------------*/
